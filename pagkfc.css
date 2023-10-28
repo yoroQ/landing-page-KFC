@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+}
+
+body{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgb(232, 155, 168), rgb(148, 34, 148), rgb(239, 239, 63));
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin: 0 10vh;
+}
+
+.contenedor{
+    background-image: url(img/rojo1.png);
+    background-size: 1100;
+    background-position: 0.00001px;
+    background-color:white;
+    background-blend-mode:darken;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: -80px 50px 0 10px;
+}
+
+
+.letras{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 20px;
+    color: white;
+}
+/*el header llega hasta aqui*/
+
+section{
+    display: flex;
+    align-items: center;
+    margin: -100px 200px 0 100px;
+    gap: 20px;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+
+.descripcion .titulo{
+    font-size: 60px;
+    margin-top: -60px;
+}
+
+.descripcion span{
+    font-weight: 1000;
+}
+
+.descripcion h4{
+    font-weight: 100;
+    margin-bottom: -20px;
+}
+
+.descripcion .boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black; 
+    background-color: white;
+    margin: 20px 360px 0 0px;
+    border-radius: 45px 45px / 45px 45px;
+
+
+    padding: 15px 40px 15px 40px;
+
+    font-size: 20px;
+
+    transition: padding-right 0.5s ease;
+}
+
+footer{
+    position: relative;
+    bottom: 70px; left: 120px;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+
+}
+
+
+.boton:hover{
+    padding-right: 50px;
+}
+
+footer .icono:hover{
+    transform: translateY(-5px);
+}
